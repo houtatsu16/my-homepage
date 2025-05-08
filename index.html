@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="hero">
+      <div class="container">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-6 col-sm-6 col-lg-4">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./Images/01.jpg"
+                    class="d-block w-100"
+                    alt="ut-austin"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./Images/02.png"
+                    class="d-block w-100"
+                    alt="tohoku"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Welcome to My Homepage!
+            </h1>
+            <p class="lead pt-5">
+              Hi, my name is <b><i>Chen Fang</i></b
+              >,<br />
+
+              A Senior Solution Architect at
+              <img
+                id="tencent-logo"
+                src="./Images/Tencent_Logo.svg.png"
+                alt="tencent-logo"
+              />.<br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="p-5 text-center bg-body">
+        <div class="container py-1">
+          <img
+            src="./Images/photo.jpg"
+            alt="photo"
+            class="profile-img mb-5"
+          />
+          <p class="col-lg-8 mx-auto lead mb-10">
+            I'm holding 1 Bachelor's degree and 3 Master's degrees in different
+            majors.
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-sm-12">
+              <img src="./Images/Jilin_University_logo.png" height="90px" />
+            </div>
+            <div class="col-xl-3 col-sm-12">
+              <img src="./Images/Tohoku_University_logo.png" height="100px" />
+            </div>
+            <div class="col-xl-3 col-sm-12">
+              <img
+                src="./Images/University_of_Texas_at_Austin_seal.svg.png"
+                height="90px"
+              />
+            </div>
+            <div class="col-xl-3 col-sm-12">
+              <img
+                src="./Images/Illinois_logo_fullcolor_rgb.png"
+                height="80px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis mb-4">My Vision</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">I aspire to further enhance my language skills, expand my multidisciplinary knowledge, and gain additional experience in the future!</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4" onclick="location.href='./resume.html'">My Resume</a></button>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+
+    <section id="footer">
+      <div class="container">
+        <footer class="py-4 mt-3">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/in/chen-fang-japan" class="nav-link px-4 text-body-secondary">Linkedin</a>
+            </li>
+<!--             <li class="nav-item">
+              <a href="#" class="nav-link px-4 text-body-secondary">Github</a>
+            </li> -->
+          </ul>
+          <p class="text-center text-body-secondary">©2025 Chen Fang</p>
+        </footer>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
